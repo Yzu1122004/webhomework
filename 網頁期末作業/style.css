@@ -1,0 +1,36 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+header
+{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(222, 219, 219);
+    display: flex;
+    align-items: center;
+    
+}
+main
+{
+    height: 90%;
+    border: 1px solid palegoldenrod;
+}
+a
+{
+    color: #000000;
+}
+footer
+{
+   background-color: rgb(50, 44, 83); 
+   height: 100%;
+}
+
+

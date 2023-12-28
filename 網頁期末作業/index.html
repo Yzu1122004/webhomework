@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>翻轉偏鄉教育</title>
+    <link rel="stylesheet" href="./style.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+    </script><script type="text/javascript">
+        jQuery(function ($) {
+        function fixDiv() {
+            var $cache = $('#getFixed');
+            if ($(window).scrollTop() > 100)
+                $cache.css({
+                'position': 'fixed',
+                'top': '指定位置的px'
+            });
+            else
+                $cache.css({
+                'position': 'relative',
+                'top': 'auto'
+            });
+        }
+        $(window).scroll(fixDiv);
+        fixDiv();
+        });
+    </script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header id="getFixed">
+        <h1 >翻轉偏鄉教育</h1>
+        <p>
+            <a href="">故事與計畫</a>
+            <a href="">捐款方式</a>
+            <a href="">問題</a>
+            <a href="">合作夥伴</a>
+            <a href="">事蹟與進度</a>
+        </p>
+        <img src="./imgs/1545160346_8.jpg" width="40px" alt="">
+        <img src="./imgs/logo_instagram.png" width="40px" alt="">
+    </header>
+
+    <main class="fst">
+
+    </main>
+
+    <main class="sec">
+
+    </main>
+
+    <main class="thd">
+
+    </main>
+
+    <main class="fth">
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
